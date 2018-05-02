@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RedMaple"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="Tulip Poplar"/>
+    <ImageView
+        android:layout_width="35mm"
+        android:layout_height="35mm"
+        android:src="@mipmap/ic_tulip_poplar"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text=" Description: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:text="Tulip poplar actually is not a poplar, but a member of the magnolia family.  The leaves are tulip-shaped, alternate, and simple.  The leaf is smooth on both surfaces, dark green and lustrous above, pale and often with a slight whitish bloom beneath. Twigs are moderately stout, olive-brown, to reddish brown, very smooth and usually lustrous; the large terminal bud has two large duck-bill shaped scales. Tulip poplar produces tulip-shaped, light greenish-yellow flowers from April to June.  It is a prolific seed bearer but has a low percent germination.  The cone shaped fruit clusters usually persist on branches.  There are about 12,000 seeds per pound.
+"/>
+
+</LinearLayout>

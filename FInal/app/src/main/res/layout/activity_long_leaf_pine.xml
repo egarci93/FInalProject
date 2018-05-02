@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RedMaple"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="Long Leaf Pine"/>
+    <ImageView
+        android:layout_width="30mm"
+        android:layout_height="30mm"
+        android:src="@mipmap/ic_long_leaf_pine"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text=" Description: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:text="      Pinus palustris Mill., longleaf pine, is found in the Atlantic and Gulf coastal plains from southeastern Virginia to central Florida and west to eastern Texas, and in the Piedmont region and Valley and Ridge province of Georgia and Alabama. Longleaf pine is a long-lived, native, evergreen conifer with orange-brown to gray scaly bark. Needles are in bundles of 3(occasionally 2); they are shiny, dark green, and 6 to 18inches long. Seed bearing cones are 6 to 10 inches long. Mature trees attain a height of 100 to 120 feet and 2½ feet in diameter. The seed are the largest of all southern pines with approximately 4,700 seed per pound. It has extensive lateral roots and an 8 to 12 foot taproot. Longleaf pine grows best in a warm, wet, temperate climate with an annual precipitation range of 43 to 69 inches. This species occurs in a wide variety of upland and flatwood sites. It is common on sandy, infertile, well-drained soils. It typically occurs below 660 feet elevation."/>
+
+</LinearLayout>

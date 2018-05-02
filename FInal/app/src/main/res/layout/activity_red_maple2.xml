@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RedMaple"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="Red Maple"/>
+    <ImageView
+        android:layout_width="35mm"
+        android:layout_height="35mm"
+        android:src="@mipmap/ic_red_maple"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text=" Description: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:text="      Acer rubrum L., red maple, is a wide-ranging native tree that is very well adapted to most soil and site conditions.  This species is one of the early harbingers of fall as it turns color well in advance of other eastern deciduous trees, especially when it is located in wet sites.  The fiery colors of fall are typically a brilliant red.  Conversely, it is also one of the earliest flowering trees in the spring.  Red maple has the smallest winged seeds (samaras) of all native maples, about 5/8-3/4 inches long.  Also, the samaras ripen in the spring- a trait shared only with silver maple which has much larger samaras.  This maple is a medium sized tree with fairly rapid growth (2-5 ft/yr), but not as fast as the much larger growing silver maple."/>
+
+
+</LinearLayout>

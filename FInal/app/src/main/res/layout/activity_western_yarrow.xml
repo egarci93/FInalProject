@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WesternYarrow"
+    android:layout_centerHorizontal="true"
+    android:isScrollContainer="true"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:text="Western Yarrow"/>
+        <ImageView
+            android:layout_width="35mm"
+            android:layout_height="35mm"
+            android:layout_gravity="center"
+            android:src="@mipmap/ic_western_yarrow" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:text=" Description: "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="6dp"
+            android:text="      Western yarrow is a native, herbaceous perennial in the Aster Family.  It is a very common wildflower that grows erect from creeping rootstocks, to a height mostly 10 to 36 in. (25 to 90 cm) tall.  The leaves of western yarrow are densely hairy, and lacy and fern-like in appearance, as they are finely dissected into numerous, short and narrow divisions not over 0.04 in. (1 mm) wide--millefolium means a thousand leaves in Latin.  Common yarrow leaves, in comparison, are smooth or only sparsely hairy; and the leaf segment is longer, more rounded, and lance-shaped.  The somewhat rounded terminal clusters of flower heads of western yarrow are normally white to cream-colored and have an extended bloom period from May to September.  For a current distribution map, please consult the Plant Profile page for this species on the PLANTS Web site."/>
+
+</LinearLayout>

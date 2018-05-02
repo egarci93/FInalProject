@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".RedMaple"
+    android:layout_centerHorizontal="true"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:text="Lemmon's NeedleGrass"/>
+    <ImageView
+        android:layout_width="35mm"
+        android:layout_height="35mm"
+        android:src="@mipmap/ic_lemmon_needlegrass"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text=" Description: "/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:text="      Lemmon’s needlegrass is a medium to long lived, relatively short, densely tufted perennial grass with culms (stems) that are 20-80 cm tall and hairy below the nodes (joints).  Leaf blades are 10-20 cm long, 1-2 mm wide, flat or rolled inward, and often blue-green in color.  The form is spreading to upright and the inflorescence (seed head or panicle) is spike-like, narrow, and pale or purplish in color. Spikelets are one flowered.  The subspecies pubescens has pubescent or tomentose culms.  Lemmon's needlegrass flowers in May and seeds mature by mid June in the foothills of western Oregon."/>
+
+</LinearLayout>
